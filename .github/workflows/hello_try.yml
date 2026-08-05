@@ -7,7 +7,7 @@ jobs:
     runs-on:ubuntu-latest
     steps:
       - name:say hello try
-        run: echo"good try"
+        run: echo "good try"
 
       - name: keep trying
         run: echo "keep tryinggg"
