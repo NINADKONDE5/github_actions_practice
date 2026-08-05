@@ -2,15 +2,13 @@ name: show_repo_info
 on:
   workflow_dispatch: 
 jobs:
-  repo-intialization:
-    runs-on: ubuntu-latest
-    steps:
-      - name:repo's initialization
-        uses: actions/checkout@v4
-    
   info-check:
     runs-on: ubuntu-latest
     steps:
+    
+      - name:repo's initialization
+        uses: actions/checkout@v4
+      
       - name: showing working directory
         run: pwd
 
