@@ -1,0 +1,17 @@
+name: try3
+
+on:
+  workflow_dispatch: 
+
+jobs:
+  show-data:
+    runs-on: ubuntu-latest
+    steps:
+      - name: checkout repo
+        uses: actions/checkout@v4
+
+      - name: show data
+        run: |
+            pwd
+            ls
+        
