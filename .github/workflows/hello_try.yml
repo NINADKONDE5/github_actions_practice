@@ -1,7 +1,6 @@
 name: hello_try
 on:
-  push:
-    branches: [main]
+  workflow_dispatch: 
 jobs:
   hello:
     runs-on: ubuntu-latest
