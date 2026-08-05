@@ -1,4 +1,4 @@
-name:hello_try
+name: hello_try
 on:
   push:
     branches: [main]
