@@ -1,0 +1,16 @@
+name:hello_try
+on:
+  push:
+    branches:[main]
+jobs:
+  hello:
+    runs-on:ubuntu
+    steps:
+      name:say hello try
+      run: echo"good try"
+
+      name: keep trying
+      run: echo "keep tryinggg"
+      
+      
+
