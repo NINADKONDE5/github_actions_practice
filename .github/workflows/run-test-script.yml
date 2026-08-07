@@ -11,4 +11,6 @@ jobs:
         run: |
             chmod a+x ./scripts/test_script.sh
             ./scripts/test_script.sh
+            chmod a+r ./output.txt
+            cat output.txt
       
