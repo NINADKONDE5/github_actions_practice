@@ -1,0 +1,12 @@
+name: run-test-script
+on:
+  workflow_dispatch:
+jobs:
+  script-running:
+    runs-on: ubuntu-latest
+    steps:
+      - name: getting repo / checkout
+        uses: actions/checkout@v4
+      - name: running script
+        run: ./scripts/test.sh
+      
