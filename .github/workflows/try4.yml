@@ -1,0 +1,16 @@
+name: one_run_many_commands
+on:
+  workflow_dispatch:
+jobs:
+  print-info:
+    runs-on: ubuntu-latest
+    steps:
+      - name: printing info
+        run: |
+            whoami
+            hostname
+            date
+            uname -a
+            git --version
+            java -version
+      
