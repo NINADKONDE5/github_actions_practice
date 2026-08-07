@@ -8,5 +8,5 @@ jobs:
       - name: getting repo / checkout
         uses: actions/checkout@v4
       - name: running script
-        run: ./scripts/test.sh
+        run: ./scripts/test_script.sh
       
